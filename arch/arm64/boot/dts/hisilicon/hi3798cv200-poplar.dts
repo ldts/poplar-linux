@@ -23,6 +23,7 @@
 
 	chosen {
 		stdout-path = "serial0:115200n8";
+		bootargs = "mem=1G root=/dev/mmcblk0p3 rootfstype=ext4 rootwait rw earlycon";
 	};
 
 	memory@0 {
